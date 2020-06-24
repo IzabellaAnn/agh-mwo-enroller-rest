@@ -1,0 +1,5 @@
+curl --header "Content-Type: application/json" --request POST --data '{"id":"1","title":"Iza Spotkanie 2","description":"Opis","date":"Data"}' http://localhost:8080/meetings
+
+curl --header "Content-Type: application/json" --request POST --data '{"login":"user5","password":"password"}' http://localhost:8080/meetings/2/participants
+
+curl -X DELETE http://localhost:8080/meetings/3

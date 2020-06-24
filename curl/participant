@@ -1,0 +1,3 @@
+curl --header "Content-Type: application/json" --request POST --data '{"login":"user2","password":"megapassword"}' http://localhost:8080/participants
+
+curl -X DELETE http://localhost:8080/participants/user2
